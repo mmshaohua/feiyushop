@@ -1,7 +1,3 @@
-# feiyushop
-
-## Project setup
-```
 1、vuex  状态管理
 2、vue-router 路由
 3、keep-alive
@@ -15,10 +11,8 @@
 11、封装UI组件
 12、sass 
 
+
 cnpm install better-scroll swiper mint-ui vue-touch@next -S
 
-cnpm install vue-lazyload -D
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+cnpm install vue-lazyload -D
