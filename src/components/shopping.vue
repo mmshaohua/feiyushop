@@ -43,4 +43,5 @@ export default {
         font-size: 0.28rem;
         color: #666666;
     }
+    
 </style>
