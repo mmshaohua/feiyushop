@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mine</title>
+    <script src="./public/js/flexble.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            height: .8rem;
+            position: relative;
+            /* margin-bottom: 2.8rem; */
+            display: block;
+            padding: 0px;
+            margin: 0px;
+            border: none;
+        }
+        .header_right{
+            position: absolute;
+            z-index: 99;
+            right: 0;
+            top: 0;
+            width: .88rem;
+            height: .88rem;
+            font-size: 0;
+            line-height: 0;
+            text-align: center;
+            background: url(http://img.dafy.com/mall/myCenter/img/20180108/index/message.png) no-repeat center center/ .4rem .4rem;
+        }
+        .user_info{
+            position: absolute;
+            top: .48rem;
+            left: .52rem;
+            height: 1.2rem;
+            font-size: 0;
+            line-height: 0;
+            padding-left: 1.5rem;
+        }
+        .user_img{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 1.2rem;
+            height: 1.2rem;
+            border: .05rem solid #fff;
+            background: #fff;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            overflow: hidden;
+            text-align: center;
+        }
+        .user_img img{
+            max-width: 100%;
+            height: auto;
+            border: none;
+            interpolation-mode: bicubic;
+            vertical-align: middle;
+        }
+        .user_info_right{
+            height: 1.2rem;
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: column;
+            -webkit-flex-direction: column;
+            justify-content: center;
+            -webkit-justify-content: center;
+        }
+        .sign_in{
+            font-size: 0;
+            line-height: 0;
+        }
+        .sign_in p{
+            font-size: .3rem;
+            line-height: .45rem;
+            height: .45rem;
+            color: #444;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header_right"></div>
+    </header>
+    <div class="myIndex_top">
+        <div class="user_info">
+            <div class="user_img">
+                <img src="http://img.dafy.com/mall/myCenter/img/20180108/index/personimg.png" alt="">
+            </div>
+            <div class="user_info_right">
+                <div class="sign_in">
+                    <p>登录 / 注册</p>
+                    ::after
+                </div>
+            </div>
+        </div>
+        <div class="my_order"></div>
+    </div>
+</body>
+</html>
